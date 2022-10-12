@@ -1,0 +1,51 @@
+PODS:
+  - customer_io (0.0.1):
+    - CustomerIOMessagingInApp (= 1.2.0-beta.3)
+    - CustomerIOMessagingPushAPN (= 1.2.0-beta.3)
+    - CustomerIOTracking (= 1.2.0-beta.3)
+    - Flutter
+  - CustomerIOCommon (1.2.0-beta.3)
+  - CustomerIOMessagingInApp (1.2.0-beta.3):
+    - CustomerIOTracking (= 1.2.0-beta.3)
+    - Gist (~> 2.1.3)
+  - CustomerIOMessagingPush (1.2.0-beta.3):
+    - CustomerIOTracking (= 1.2.0-beta.3)
+  - CustomerIOMessagingPushAPN (1.2.0-beta.3):
+    - CustomerIOMessagingPush (= 1.2.0-beta.3)
+  - CustomerIOTracking (1.2.0-beta.3):
+    - CustomerIOCommon (= 1.2.0-beta.3)
+  - Flutter (1.0.0)
+  - Gist (2.1.3)
+
+DEPENDENCIES:
+  - customer_io (from `.symlinks/plugins/customer_io/ios`)
+  - Flutter (from `Flutter`)
+
+SPEC REPOS:
+  trunk:
+    - CustomerIOCommon
+    - CustomerIOMessagingInApp
+    - CustomerIOMessagingPush
+    - CustomerIOMessagingPushAPN
+    - CustomerIOTracking
+    - Gist
+
+EXTERNAL SOURCES:
+  customer_io:
+    :path: ".symlinks/plugins/customer_io/ios"
+  Flutter:
+    :path: Flutter
+
+SPEC CHECKSUMS:
+  customer_io: 1f1ef9ddcd3f730dd0a778400557ba50590ff11b
+  CustomerIOCommon: 88d0392a528ae3e869751a9bfc96daefef3000ae
+  CustomerIOMessagingInApp: 2368fbcf9daa3c6c8bbda4ab86388daca2c64916
+  CustomerIOMessagingPush: 7be33caf2e6d4d5ecbf3936b36fcace11b34ad80
+  CustomerIOMessagingPushAPN: 1aad475bef89db3ba9fced18a02c602d25d2a60a
+  CustomerIOTracking: 1af19d5760bfc8868f2e5cae98596b3e39c5d708
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  Gist: a20554feb93c11d85d4a04dfff78cdfd015d7389
+
+PODFILE CHECKSUM: cc1f88378b4bfcf93a6ce00d2c587857c6008d3b
+
+COCOAPODS: 1.11.3
